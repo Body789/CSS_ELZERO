@@ -1,0 +1,73 @@
+/* this is for 5 and 6 */
+/* 5 */
+/* Valid */
+._user-name {
+}
+
+/* Valid */
+.-user-name {
+}
+
+/* Valid */
+.-user-name {
+}
+
+/* Not Valid */
+.1user-name {
+}
+
+/* Not Valid */
+.@user-name {
+}
+
+/* Not Valid */
+.user@name {
+}
+
+/* Valid */
+._user10name {
+}
+
+/* ? */
+.u {
+}
+/* 6 */
+/* ? */
+.USERNAME {
+}
+
+/* ? */
+.UserName {
+}
+
+/* ? */
+.user-name {
+}
+
+/* ? */
+.userName {
+}
+
+/* ? */
+.usernameprofile {
+}
+/* 6 */
+/* Bad */
+.USERNAME {
+}
+
+/* Bad */
+.UserName {
+}
+
+/* Good */
+.user-name {
+}
+
+/* Bad */
+.userName {
+}
+
+/* Bad */
+.usernameprofile {
+}
