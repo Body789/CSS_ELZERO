@@ -1,0 +1,30 @@
+.parent .child .title {
+  color: red;
+}
+
+.parent .title {
+  color: blue;
+}
+
+.parent p {
+  color: green;
+}
+
+.title {
+  color: green;
+}
+
+/* #A52A2A */
+.ass-2 div {
+  padding: 10px;
+  margin: 10px;
+  background-color: #A52A2A;
+  color: white;
+  width: fit-content;
+  max-width: 450px;
+  max-height: 25px;
+}
+
+.t4 .hl {
+  overflow: hidden;
+}
