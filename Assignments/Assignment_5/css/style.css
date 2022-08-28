@@ -1,0 +1,54 @@
+.Assignment_1 {
+  text-shadow: 
+  0.5px 0.5px 0 #F44336, 
+  1px 1px 0 #1196F3, 
+  1.5px 1.5px 0 #9C17B0;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+.one {
+  text-transform: uppercase;
+}
+
+.two {
+  text-transform: capitalize;
+}
+
+.three {
+  text-transform: lowercase;
+}
+
+.one-div, .two-div, .three-div {
+  width: 400px;
+  background-color: #eee;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.three-div {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+a {
+  text-transform: capitalize;
+  background-color: #009688;
+  color: white;
+  display: block;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin: 20px auto;
+  text-decoration: none;
+  border-bottom: 8px solid #00514A;
+  font-size: 150%;
+  font-weight: bold;
+  padding: 10px;
+}
