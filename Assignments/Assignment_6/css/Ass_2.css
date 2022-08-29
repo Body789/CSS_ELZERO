@@ -1,0 +1,19 @@
+div p {
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.cairo {
+  font-family: 'Cairo', sans-serif;
+  font-weight: 700;
+}
+
+.i {
+  font-family: 'Jomhuria', cursive;
+}
