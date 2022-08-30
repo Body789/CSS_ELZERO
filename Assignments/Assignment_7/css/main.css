@@ -1,0 +1,8 @@
+.parent {
+  width: 800px;
+  background-color: #eee;
+}
+
+.parent div {
+  text-align: center;
+}
