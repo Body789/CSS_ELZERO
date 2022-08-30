@@ -7,3 +7,11 @@ div {
   background-color: #B3B3B3; /* Get The Background From Image */
   color: black;
 }
+
+.one {
+  background-color: rgb(179, 179, 179, 0.1);
+}
+
+.two {
+  opacity: 0.1;
+}
