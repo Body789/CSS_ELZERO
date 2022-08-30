@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 .parent {
   width: 800px;
   background-color: #eee;
@@ -15,19 +19,22 @@
 }
 
 .full-width {
-  width: 100%;
+  width: calc((100% - 30px));
 }
 
 .row1 {
-  width: 33.3%;
+  /* width: 33.3%; */
+  width: calc((100% - 60px) / 4);
+  margin-left: 15px;
+  /* gap: 15px; */
 }
 
 .row2 {
-  width: 50%;
+  width: calc((100% - 45px) / 3);
 }
 
 .row3 {
-  width: 25%;
+  width: calc((100% - 75px) / 5);
 }
 
 .clear {
