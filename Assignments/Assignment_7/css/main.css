@@ -27,7 +27,6 @@ body {
 .row1 {
   /* width: 33.3%; */
   width: calc((100% - 60px) / 3);
-  margin-left: 15px;
   /* gap: 15px; */
 }
 
