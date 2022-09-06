@@ -1,0 +1,25 @@
+p {
+  background-color: #eee;
+  padding: 10px;
+  margin: 20px auto;
+  width: 400px;
+  position: relative;
+  border-right: 5px solid #F44336;
+  counter-increment: members-counter;
+}
+
+p::before {
+  content: counter(members-counter);
+  position: absolute;
+  background-color: #F44336;
+  color: white;
+  width: 38.5px;
+  height: 38.5px;
+  text-align: center;
+  font-weight: bold;
+  left: -38.5px;
+  top: 50%;
+  margin-top: -19.5px;
+  text-align: center;
+  line-height: 38.5px;
+}
