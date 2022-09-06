@@ -1,0 +1,35 @@
+.parent {
+  width: 400px;
+  margin: 20px auto;
+}
+
+.parent li {
+  background-color: #eee;
+  padding: 10px;
+  margin: 10px;
+}
+
+.html,.css,.js {
+  list-style: none;
+}
+
+.html ol {
+  list-style-type: decimal;
+}
+
+.css ol {
+  list-style-type: upper-roman;
+}
+
+.sub-html li,.sub-css li,.sub-js li {
+  background-color: white;
+}
+
+.sub-js {
+  padding-left: 0px;
+}
+
+.sub-js li {
+  margin-left: 0px;
+  list-style-position: inside;
+}
