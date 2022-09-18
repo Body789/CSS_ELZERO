@@ -1,0 +1,19 @@
+div {
+  box-shadow: 
+    0px 0px 0px 2px black, 
+    -5px -5px 0px 2px #e91e63, 
+    5px 5px 0px 2px #2196f3;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 50px;
+  margin: 10px;
+  counter-increment: num;
+}
+
+div::after {
+  content: counter(num);
+  color: white;
+  background-color: black;
+}
