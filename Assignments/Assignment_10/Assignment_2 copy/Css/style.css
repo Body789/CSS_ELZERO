@@ -1,0 +1,95 @@
+.parent {
+  border: 1px solid #ccc;
+  width: 550px;
+  margin: 10px auto;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
+}
+
+.one,.two {
+  width: 200px;
+  height: 300px;
+  background-color: #eee;
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+
+.two {
+  margin-left: 70px;
+}
+
+.divider {
+  width: 1px;
+  height: 340px;
+  background-color: #03A9F4;
+  position: absolute;
+  left: 285px;
+}
+
+.divider::before {
+  content: "Or";
+    color: white;
+    font-weight: bold;
+    background-color: #03A9F4;
+    padding: 5px;
+    border-radius: 50%;
+    position: relative;
+    top: 159px;
+    left: -10.5px;
+    font-size: x-small;
+    text-align: center;
+}
+
+.one::before {
+  content: "Basic";
+  width: 150px;
+  position: absolute;
+  left: 35px;
+  background-color: #03A9F4;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.two::before {
+  content: "Pro";
+  width: 150px;
+  position: absolute;
+  left: 35px;
+  background-color: #03A9F4;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.one::after {
+  display: block;
+  content: "Free";
+  padding: 65px 50.5px;
+  font-size: xx-large;
+  position: absolute;
+  left: 35px;
+  top: 116px;
+  background-color: #DDD;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.two::after {
+  display: block;
+  content: "Paid";
+  padding: 65px 50.5px;
+  font-size: xx-large;
+  position: absolute;
+  left: 35px;
+  top: 116px;
+  background-color: #DDD;
+  text-align: center;
+  border-radius: 50%;
+}
