@@ -1,3 +1,7 @@
+*{
+  box-sizing: border-box;
+}
+
 div {
   position: relative;
   width: 600px;
@@ -15,3 +19,44 @@ div::first-letter {
   color: #F44336;
 }
 
+div::before{
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: calc(100% + 10px);
+  top: -5px;
+  left: -5px;
+  background-image: linear-gradient(
+    to right, 
+    #f44336 20%, 
+    #2196f3 20%, 
+    #2196f3 40%, 
+    #4caf50 40%, 
+    #4caf50 60%, 
+    #e91e63 60%, 
+    #e91e63 80%, 
+    #673ab7 80%, 
+    #673ab7 100%
+    );
+}
+
+div::after{
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: calc(100% + 10px);
+  bottom: -5px;
+  left: -5px;
+  background-image: linear-gradient(
+    to right, 
+    #f44336 20%, 
+    #2196f3 20%, 
+    #2196f3 40%, 
+    #4caf50 40%, 
+    #4caf50 60%, 
+    #e91e63 60%, 
+    #e91e63 80%, 
+    #673ab7 80%, 
+    #673ab7 100%
+    );
+}
