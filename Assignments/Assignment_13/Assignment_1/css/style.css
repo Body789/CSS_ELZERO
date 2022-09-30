@@ -2,4 +2,12 @@ div {
   width: 600px;
   margin: 20px auto;
   text-align: center;
+  letter-spacing: 0.1em;
+  background-color: #eee;
+  padding: 20px;
+  font-weight: bold;
+}
+
+div::first-letter {
+  color: #F44336;
 }
