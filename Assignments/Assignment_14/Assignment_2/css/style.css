@@ -18,22 +18,46 @@ header {
   grid-area: header;
   background-color: #03A9F4;
   color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+header::after {
+  content: "Header";
 }
 
 section {
   grid-area: section;
   background-color: #FF5722;
   color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+section::after {
+  content: "Section";
 }
 
 aside {
   grid-area: aside;
   background-color: #607D8B;
   color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+aside::after {
+  content: "Aside";
 }
 
 footer {
   grid-area: footer;
   background-color: #009688;
   color: white;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+footer::after {
+  content: "Footer";
 }
