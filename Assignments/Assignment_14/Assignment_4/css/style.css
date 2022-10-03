@@ -28,3 +28,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.eight {
+  grid-column: 1 / 41;
+  grid-row: 1;
+}
