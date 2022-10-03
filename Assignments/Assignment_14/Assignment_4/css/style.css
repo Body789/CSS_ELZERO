@@ -13,4 +13,8 @@
   padding: 20px;
   width: 800px;
   height: 400px;
+  margin: 10px auto;
+  display: grid;
+  grid-template: repeat(6,1fr) / repeat(40, 1fr);
+  row-gap: 20px;
 }
