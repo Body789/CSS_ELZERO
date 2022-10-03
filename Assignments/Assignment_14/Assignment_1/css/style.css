@@ -5,7 +5,7 @@
 .grid {
   margin: 10px auto;
   display: grid;
-  grid-template: auto 1fr / repeat(3,calc((100% - 40px) / 3));
+  grid-template: 50px 1fr / repeat(3,calc((100% - 40px) / 3));
   gap: 10px 10px;
   background-color: #ddd;
   padding: 20px;
