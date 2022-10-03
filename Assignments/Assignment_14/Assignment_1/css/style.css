@@ -20,4 +20,11 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
+  counter-reset: num;
+  font-size: larger;
+}
+
+.grid div::after {
+  counter-increment: num;
+  content: "Element " counter(num);
 }
