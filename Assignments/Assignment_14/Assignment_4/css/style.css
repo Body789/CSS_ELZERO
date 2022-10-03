@@ -50,5 +50,9 @@
 }
 
 .three {
-  grid-area: 2 / 27 / 2 / 41;
+  grid-area: 2 / 28 / 2 / 41;
+}
+
+.two {
+  grid-area: 2 / 1 / 2 / 27;
 }
