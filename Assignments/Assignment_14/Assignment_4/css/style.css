@@ -30,6 +30,5 @@
 }
 
 .eight {
-  grid-column: 1 / 41;
-  grid-row: 1;
+  grid-area: 1 / 1 / 1 / 41;
 }
