@@ -18,3 +18,13 @@
   grid-template: repeat(6,1fr) / repeat(40, 1fr);
   row-gap: 20px;
 }
+
+.grid div {
+  background-color: var(--main-child-color, #2196f3);
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
