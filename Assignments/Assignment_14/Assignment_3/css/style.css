@@ -1,5 +1,5 @@
 :root {
-  main-child-color: #403F3F;
+  --main-child-color: #403F3F;
 }
 
 *{
@@ -9,6 +9,7 @@
 }
 
 .grid {
+  margin: 10px auto;
   display: grid;
   background-color: #ddd;
   padding: 20px;
@@ -16,4 +17,14 @@
   height: 400px;
   grid-template: 1fr auto / auto 1fr 1fr auto;
   gap: 20px 20px;
+}
+
+.grid div{
+  background-color: var(--main-child-color, #403F3F);
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
