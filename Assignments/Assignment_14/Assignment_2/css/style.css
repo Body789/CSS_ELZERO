@@ -1,4 +1,39 @@
 *{
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
+.layout {
+  display: grid;
+  height: 100vh;
+  grid-template: 10% 80% 10% / 75% 25%;
+  grid-template-areas: 
+    "header header"
+    "section aside"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  background-color: #03A9F4;
+  color: white;
+}
+
+section {
+  grid-area: section;
+  background-color: #FF5722;
+  color: white;
+}
+
+aside {
+  grid-area: aside;
+  background-color: #607D8B;
+  color: white;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #009688;
+  color: white;
+}
