@@ -1,0 +1,10 @@
+*{
+  box-sizing: border-box;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+}
