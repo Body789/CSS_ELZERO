@@ -3,11 +3,21 @@
 }
 
 .grid {
+  margin: 10px auto;
   display: grid;
-  grid-template: repeat(3,1fr) / auto 1fr;
+  grid-template: auto 1fr / repeat(3,calc((100% - 40px) / 3));
   gap: 10px 10px;
   background-color: #ddd;
   padding: 20px;
   width: 800px;
   height: 400px;
+}
+
+.grid div {
+  display: inline-flex;
+  background-color: #607d8b;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
 }
