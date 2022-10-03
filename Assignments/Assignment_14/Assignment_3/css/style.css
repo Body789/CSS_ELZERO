@@ -1,3 +1,7 @@
+:root {
+  main-child-color: #403F3F;
+}
+
 *{
   box-sizing: border-box;
   margin: 0px;
