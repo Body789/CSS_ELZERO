@@ -26,6 +26,13 @@
   position: relative;
 }
 
+.page .three,
+.page .five,
+.page .eight {
+    background-color: black;
+    color: white;
+}
+
 .one{
   grid-area: 1 / 1 / span 3 / span 2;
 }
