@@ -53,3 +53,7 @@
 .seven {
   grid-area: 12 / 1 / span 2 / 2;
 }
+
+.eight {
+  grid-area: 12 / 2 / span 2 / 3;
+}
