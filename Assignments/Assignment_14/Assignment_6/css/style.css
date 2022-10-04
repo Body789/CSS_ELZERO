@@ -1,0 +1,31 @@
+:root {
+  --main-child-color: #E91E63;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.grid {
+  background-color: #ddd;
+  padding: 20px;
+  width: 800px;
+  height: 400px;
+  margin: 10px auto;
+  display: grid;
+  grid-template: repeat(2,auto) / repeat(2, 1fr);
+  column-gap: 20px;
+  align-content: space-between;
+}
+
+.grid div {
+  background-color: var(--main-child-color, #E91E63);
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
