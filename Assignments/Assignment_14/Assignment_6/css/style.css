@@ -45,3 +45,7 @@
 .five {
   grid-area: 4 / 2 / span 4 / span 2;
 }
+
+.six {
+  grid-area: 8 / 2 / span 4 / span 2;
+}
