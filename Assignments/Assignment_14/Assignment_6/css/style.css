@@ -61,3 +61,7 @@
 .nine {
   grid-area: 12 / 3 / span 2 / 4;
 }
+
+.ten {
+  grid-area: 12 / 4 / span 2 / 5;
+}
