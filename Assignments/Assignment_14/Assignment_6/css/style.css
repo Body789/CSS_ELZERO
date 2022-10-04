@@ -3,7 +3,7 @@
   --quotation-mark-color: #B3B3B3;
 }
 
-*{
+* {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -17,4 +17,11 @@
   display: grid;
   grid-template: repeat(13, 1fr) / repeat(4, 1fr);
   gap: 10px 10px;
+}
+
+.page div {
+  background-color: white;
+  padding: 20px;
+  color: black;
+  position: relative;
 }
