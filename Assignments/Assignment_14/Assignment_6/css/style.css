@@ -72,3 +72,32 @@
 .ten {
   grid-area: 12 / 4 / span 2 / 5;
 }
+
+h4 {
+  margin-bottom: 10px;
+}
+
+h5 {
+  margin-bottom: 15px;
+  opacity: 50%;
+}
+
+.page div::before {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background-color: #fb5a27;
+  left: 0;
+  bottom: 0;
+}
+
+.page div::after {
+  content: "''";
+  color: #ccc;
+  position: absolute;
+  font-size: 65px;
+  right: 10px;
+  bottom: -30px;
+  transform: rotate(12deg);
+}
