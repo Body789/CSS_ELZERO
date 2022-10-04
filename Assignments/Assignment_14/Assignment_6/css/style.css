@@ -49,3 +49,7 @@
 .six {
   grid-area: 8 / 2 / span 4 / span 2;
 }
+
+.seven {
+  grid-area: 12 / 1 / span 2 / 2;
+}
