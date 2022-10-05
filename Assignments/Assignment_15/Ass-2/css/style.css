@@ -19,4 +19,8 @@ div {
   align-items: center;
   width: 200px;
   height: 200px;
+  background-color: #eee;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 1.8em;
 }
