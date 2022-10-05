@@ -24,6 +24,7 @@ div {
   font-weight: bold;
   font-size: 1.8em;
 }
+
 div::before {
   content: "";
   width: 100%;
@@ -33,4 +34,16 @@ div::before {
   border-radius: 50%;
   border-left-color: transparent;
   transition: 0.5s;
+}
+
+div::after {
+  content: "";
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  position: absolute;
+  border: 10px solid #e91e63;
+  border-radius: 50%;
+  border-left-color: transparent;
+  transition: 0.5s;
+  transition-delay: 0.5s;
 }
