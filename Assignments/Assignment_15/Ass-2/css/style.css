@@ -47,3 +47,7 @@ div::after {
   transition: 0.5s;
   transition-delay: 0.5s;
 }
+
+div:hover::before, div:hover::after {
+  transform: rotate(1turn);
+}
