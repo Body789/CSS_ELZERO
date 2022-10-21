@@ -26,3 +26,10 @@ h1::before, h1::after {
   left: 0;
   z-index: -1;
 }
+
+h1::before{
+  transform: skew(10deg, 10deg);
+}
+h1::after{
+  transform: skew(-10deg, -10deg);
+}
