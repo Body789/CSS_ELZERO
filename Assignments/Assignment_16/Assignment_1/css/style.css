@@ -1,0 +1,17 @@
+:root {
+  --background_color: #FF5722;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 150px;
+  margin: 20px auto;
+  background-color: var(--background_color, #FF5722);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
