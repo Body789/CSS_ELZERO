@@ -21,5 +21,12 @@ div {
   border-bottom: 5px solid black;
   display: flex;
   align-items: flex-end;
-  padding: 10px;
+}
+
+div::before {
+  content: "Elzero";
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  color: white;
 }
