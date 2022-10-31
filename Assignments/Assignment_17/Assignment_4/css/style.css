@@ -10,8 +10,9 @@
 }
 
 body {
-  height: 100vh;
-  width: 100%;
+  height: 700px;
+  width: 900px;
+  margin: 10px auto;
 }
 
 .grid-parent {
@@ -62,6 +63,10 @@ body {
   top: 10px;
   left: calc(((100% - 20px) / 9) * 3 + 10px);
   border: 19px solid var(--black--, #323234);
+  animation-name: move-e;
+  animation-duration: 10s;
+  animation-delay: 1s;
+  animation-timing-function: linear;
 }
 
 .grid-parent::after {
@@ -73,4 +78,83 @@ body {
   top: calc(((100% - 20px) / 7) * 6 + 10px);
   left: calc(((100% - 20px) / 9) * 8 + 10px);
   border: 19px solid var(--black--, #323234);
+  animation-name: move-l;
+  animation-duration: 4s;
+  animation-delay: 11s;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+
+@keyframes move-e {
+    0%{
+      left: calc(((100% - 20px) / 9) * 3 + 10px);
+      top: 10px;
+      
+  }
+  10%{
+      left: 10px;
+      top: 10px;
+      
+  }
+  20%{
+      left: 10px;
+      top: calc(((100% - 20px) / 7) * 3 + 10px);
+  }
+  30%{
+      left: calc(((100% - 20px) / 9) * 3 + 10px);
+      top: calc(((100% - 20px) / 7) * 3 + 10px);
+      
+  }
+  40%{
+      left: 10px;
+      top: calc(((100% - 20px) / 7) * 3 + 10px);
+  }
+  50%{
+      left: 10px;
+      top: calc(((100% - 20px) / 7) * 6 + 10px);
+  }
+  60%{
+      left: calc(((100% - 20px) / 9) * 3 + 10px);
+      top: calc(((100% - 20px) / 7) * 6 + 10px);
+  }
+  70%{
+      left: 10px;
+      top: calc(((100% - 20px) / 7) * 6 + 10px);
+  }
+  90%{
+      left: 10px;
+      top: 10px;
+  }
+  100%{
+      left: calc(((100% - 20px) / 9) * 3 + 10px);
+      top: 10px;
+  }
+}
+
+@keyframes move-l {
+    0% {
+        opacity: 0;
+        top: calc((((100% - 20px) / 7) * 6) + 10px);
+        left: calc(((100% - 20px) / 9) * 8 + 10px);
+    }
+    20% {
+        opacity: 1;
+        top: calc(((100% - 20px) / 7) * 6 + 10px);
+        left: calc(((100% - 20px) / 9) * 8 + 10px);
+    }
+    50% {
+        opacity: 1;
+        top: calc(((100% - 20px) / 7) * 6 + 10px);
+        left: calc(((100% - 20px) / 9) * 5 + 10px);
+    }
+    80% {
+        opacity: 1;
+        top: 10px;
+        left: calc(((100% - 20px) / 9) * 5 + 10px);
+    }
+    100% {
+      opacity: 0;
+      top: 10px;
+      left: calc(((100% - 20px) / 9) * 5 + 10px);
+    }
 }
