@@ -1,0 +1,3 @@
+div:not(.no-need) > div[title="Elzero"]:last-child:nth-child(2) {
+  color: red;
+}
