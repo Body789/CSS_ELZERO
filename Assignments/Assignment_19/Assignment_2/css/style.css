@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.child {
+  background-color: #eee;
+  text-align: center;
+  width: calc((100% - 10px) / 4 - 10px);
+  margin-top: 10px;
+  padding: 20px;
+  font-size: smaller;
+}
+
+h3 {
+  color: #009688;
+}
