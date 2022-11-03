@@ -36,3 +36,15 @@
   background-color: #ccc;
   font-size: 20px;
 }
+
+.top::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #ccc;
+  transform: rotate(45deg);
+  top: -15px;
+  left: calc(50% - 15px);
+}
