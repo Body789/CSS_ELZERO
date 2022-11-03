@@ -12,18 +12,14 @@
 .child {
   background-color: #eee;
   text-align: center;
-  width: calc(100% - 10px);
-  margin-top: 1.5%;
+  width: calc(100% - 50px);
+  margin-top: 25px;
   padding: 20px;
   font-size: smaller;
 }
 
-.two {
-  width: calc(98% / 2);
-}
-
-.three {
-  width: calc(98% / 2);
+.two, .three {
+  width: calc((100% - 75px) / 2);
 }
 
 h3 {
@@ -48,7 +44,10 @@ h3 {
     color: red;
   }
   .child {
-    width: calc((95% - 10px) / 2);
+    width: calc((100% - 100px) / 3);
+  }
+  .one {
+    width: calc(100% - 50px);
   }
 }
 
