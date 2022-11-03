@@ -27,3 +27,12 @@
   height: 200px;
   border: 50%;
 }
+
+.arrow{
+  width: 400px;
+  padding: 20px;
+  margin: 50px auto;
+  position: relative;
+  background-color: #ccc;
+  font-size: 20px;
+}
