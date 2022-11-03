@@ -12,12 +12,44 @@
 .child {
   background-color: #eee;
   text-align: center;
-  width: calc((100% - 10px) / 4 - 10px);
-  margin-top: 10px;
+  width: calc((90%) / 4);
+  margin-top: 1.5%;
   padding: 20px;
   font-size: smaller;
 }
 
 h3 {
   color: #009688;
+}
+
+/* Small Screens */
+
+@media (min-width: 300px) and (max-width:599px) {
+  h3 {
+    color: black;
+  }
+  .child {
+    width: calc(100% - 10px);
+  }
+}
+
+/* Medium Screens */
+
+@media (min-width: 600px) {
+  h3 {
+    color: red;
+  }
+  .child {
+    width: calc((95% - 10px) / 2);
+  }
+}
+
+/* Large Screens */
+
+@media (min-width: 800px) {
+}
+
+/* Custom */
+
+@media (max-width: 1199px) {
 }
